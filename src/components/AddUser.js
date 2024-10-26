@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import UserList from './components/UserList';
 import UserForm from './components/UserForm';
 
-
 const App = () => {
   const [users, setUsers] = useState([
     { id: 1, name: 'John Doe', job: 'Developer' },
